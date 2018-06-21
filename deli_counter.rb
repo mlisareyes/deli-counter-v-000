@@ -8,6 +8,6 @@ def line(katz_deli)
       a << "#{index}. #{name}"
       index += 1
     end
-    puts "The line is currently: #{a.join(" ")
+    puts "The line is currently: #{a.join(" ")}
   end
 end
