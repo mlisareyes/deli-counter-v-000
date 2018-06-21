@@ -6,6 +6,7 @@ def line(katz_deli)
   else
     katz_deli.map.with_index(1) do |name, index|
       a << "#{index}. #{name}"
+      index += 1
 
 
     end
